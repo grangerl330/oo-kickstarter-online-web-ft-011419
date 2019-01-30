@@ -10,7 +10,5 @@ class Backer
     @backed_projects << project 
     project.backers << self 
   end 
-  # Adds the given project to the backed_projects array created upon initilization. 
-  #Adds self, which is the Backer that this method is being called on, to the backers instance array of the project class instance that was given as an argument 
-  
+ 
 end 
